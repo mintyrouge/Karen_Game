@@ -1186,7 +1186,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1626023533}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1626023535}
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1626023533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1236,7 +1247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67be9760e26d20543b32900a4dae0243, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneIdx: 0
+  sceneIdx: 4
 --- !u!1 &1780032131
 GameObject:
   m_ObjectHideFlags: 0
