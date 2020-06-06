@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 3501
+  controlID: 6464
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 3502
+  controlID: 6465
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 3503
+  controlID: 6426
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 9af3ffffb6f3ffffd6f3fffff2f3ffff16f4ffff32f4ffff5cf4ffff7ef4ffff42f7ffff723a000090410000
+      m_ExpandedIDs: 84d5ffffb0d5ffff02d6ffff9af3ffffb6f3ffffd6f3fffff2f3ffff16f4ffff32f4ffff5cf4ffff7ef4ffff42f7ffff723a000090410000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -312,9 +312,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -80.70214, y: 102.413895, z: -2868.875}
+    m_Target: {x: -34.57034, y: 0.3259716, z: -189.22896}
     speed: 2
-    m_Value: {x: -80.70214, y: 102.413895, z: -2868.875}
+    m_Value: {x: -34.57034, y: 0.3259716, z: -189.22896}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -364,9 +364,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 576.14716
+    m_Target: 385.11758
     speed: 2
-    m_Value: 576.14716
+    m_Value: 385.11758
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -548,19 +548,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Script
+    - Assets/Sprite
   m_ViewMode: 1
   m_StartGridSize: 60
   m_LastFolders:
-  - Assets/Script
+  - Assets/Sprite
   m_LastFoldersGridSize: 60
   m_LastProjectPath: C:\Users\kpere\OneDrive\Desktop\Karen_Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ce3a0000
-    m_LastClickedID: 15054
+    m_SelectedIDs: d03a0000
+    m_LastClickedID: 15056
     m_ExpandedIDs: 00000000b23a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -614,9 +614,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 082f0000
-    m_LastClickedInstanceID: 12040
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000b03000001a410000ee440000e6440000464a0000d24a000000000000803c00004e4a0000c64b0000b64b0000ba4b00007c4a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -699,7 +699,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 14954
+  m_LastSelectedObjectID: 16790
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -762,5 +762,5 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: 12040
+  m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
