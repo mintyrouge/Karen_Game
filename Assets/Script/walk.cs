@@ -15,8 +15,8 @@ public class walk : MonoBehaviour
         float vertical = Input.GetAxis("Vertical");
 
         Vector2 position = transform.position;
-        position.x = position.x + 3.0f * horizontal * Time.deltaTime;
-        position.y = position.y + 3.0f * vertical * Time.deltaTime;
+        position.x = position.x + 150.0f * horizontal * Time.deltaTime;
+        position.y = position.y + 150.0f * vertical * Time.deltaTime;
         transform.position = position;
     }
 }
