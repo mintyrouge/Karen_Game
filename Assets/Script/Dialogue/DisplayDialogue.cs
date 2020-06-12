@@ -1,6 +1,6 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DisplayDialogue : MonoBehaviour
 {
@@ -48,10 +48,19 @@ public class DisplayDialogue : MonoBehaviour
 
         if (leftSpeakerUI.SpeakerIs(character)) {
             SetDialogue(leftSpeakerUI, rightSpeakerUI, line.dialogue);
+            SetEmotion(leftSpeakerUI);
 
         } else {
             SetDialogue(rightSpeakerUI, leftSpeakerUI, line.dialogue);
+            SetEmotion(rightSpeakerUI);
+
         }
+    }
+
+    void SetEmotion(SpeakerUI emotion) {
+        Line line = conversation.lines[activeLineIndex];
+        emotion.image.sprite = line.character.image;
+
     }
 
     void SetDialogue(

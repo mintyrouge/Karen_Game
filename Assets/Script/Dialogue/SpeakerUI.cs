@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class SpeakerUI : MonoBehaviour
 {
     public Image image;
-    public Text name;
+    new public Text name;
     public Text dialogue;
 
     private Character speaker;
@@ -33,6 +33,7 @@ public class SpeakerUI : MonoBehaviour
 
     public void Show() {
         gameObject.SetActive(true);
+
     }
 
     public void Hide() {

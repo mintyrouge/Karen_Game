@@ -3,6 +3,6 @@
 [CreateAssetMenu(fileName = "New Character", menuName = "Character")]
 public class Character : ScriptableObject
 {
-    public string name;
+    new public string name;
     public Sprite image;
 }
