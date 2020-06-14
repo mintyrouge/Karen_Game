@@ -10,28 +10,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ffe78aeffddced4793804effd481fa6, type: 3}
-  m_Name: Garbucks1
+  m_Name: Convo2A
   m_EditorClassIdentifier: 
   leftSpeaker: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
-  rightSpeaker: {fileID: 11400000, guid: 729f331d3d7387e428bf7b8848ebf021, type: 2}
+  rightSpeaker: {fileID: 11400000, guid: 3c38514b8c96d154bbe9a1888ea9c2b3, type: 2}
+  reply: {fileID: 0}
+  nextConversation: {fileID: 0}
   lines:
   - character: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
-    dialogue: Hello!
+    dialogue: 'Okay ma''am. '
   - character: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
-    dialogue: How can I help you today?
-  - character: {fileID: 11400000, guid: 729f331d3d7387e428bf7b8848ebf021, type: 2}
-    dialogue: 'Hello sir. '
-  - character: {fileID: 11400000, guid: 2b1453b602e782040960782ad47c9151, type: 2}
-    dialogue: I'm seeking after the pumpkin spice latte.
+    dialogue: Let's settle down now.
+  - character: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
+    dialogue: What other item do you want on the menu?
   - character: {fileID: 11400000, guid: 4bc7520ebd021f3458f820c5d2e5c9aa, type: 2}
-    dialogue: Care to spill it for me?
+    dialogue: 'I want... '
+  - character: {fileID: 11400000, guid: 729f331d3d7387e428bf7b8848ebf021, type: 2}
+    dialogue: a quad long shot grande in a venti cup half calf double cupped no sleeve
+      salted caramel
+  - character: {fileID: 11400000, guid: 4bc7520ebd021f3458f820c5d2e5c9aa, type: 2}
+    dialogue: 'mocha latte with 2 pumps of vanilla, '
+  - character: {fileID: 11400000, guid: 2b1453b602e782040960782ad47c9151, type: 2}
+    dialogue: 2 pumps of classic,
+  - character: {fileID: 11400000, guid: 4bc7520ebd021f3458f820c5d2e5c9aa, type: 2}
+    dialogue: 2 pumps of hazelnut,
+  - character: {fileID: 11400000, guid: 729f331d3d7387e428bf7b8848ebf021, type: 2}
+    dialogue: and extra java chips.
   - character: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
-    dialogue: Sure thing ma'am.
-  - character: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
-    dialogue: Your total is $8.75.
-  - character: {fileID: 11400000, guid: 4c21dcf7714dbe240888b11ea6ee5c23, type: 2}
-    dialogue: I think I deserve a discount sweetheart.
-  - character: {fileID: 11400000, guid: eea89544e7007084390877064921b050, type: 2}
-    dialogue: You weren't looking at me the right way.
-  - character: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
-    dialogue: Sorry?
+    dialogue: Is that all?

@@ -13,6 +13,8 @@ public struct Line {
 public class Conversation : ScriptableObject { 
     public Character leftSpeaker;
     public Character rightSpeaker;
+    public Reply reply;
+    public Conversation nextConversation;
     public Line[] lines;
 
 }

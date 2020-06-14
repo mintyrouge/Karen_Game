@@ -1,10 +1,15 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
+
+[System.Serializable]
+public class ReplyEvent : UnityEvent<Reply> { }
 
 public class DisplayDialogue : MonoBehaviour
 {
     public Conversation conversation;
+    public ReplyEvent replyEvent;
 
     public GameObject leftSpeaker;
     public GameObject rightSpeaker;
@@ -12,9 +17,16 @@ public class DisplayDialogue : MonoBehaviour
     private SpeakerUI leftSpeakerUI;
     private SpeakerUI rightSpeakerUI;
 
-    private int activeLineIndex = 0;
+    private int activeLineIndex;
+    private bool conversationStarted = false;
 
-    void Start()
+    public void ChangeConversation(Conversation nextConversation) {
+        conversationStarted = false;
+        conversation = nextConversation;
+        AdvanceLine();
+    }
+
+    private void Start()
     {
         leftSpeakerUI = leftSpeaker.GetComponent<SpeakerUI>();
         leftSpeakerUI.Speaker = conversation.leftSpeaker;
@@ -23,22 +35,56 @@ public class DisplayDialogue : MonoBehaviour
         rightSpeakerUI.Speaker = conversation.rightSpeaker;
     }
 
-    void Update()
+    private void Update()
     {
         if (Input.GetKeyDown("space")) {
+            AdvanceLine();
+
+        } else if (Input.GetKeyDown(KeyCode.Escape)) {
+            EndConversation();
+        }
+    }
+
+    private void EndConversation() {
+        conversation = null;
+        conversationStarted = false;
+        leftSpeakerUI.Hide();
+        rightSpeakerUI.Hide();
+    }
+
+    private void Initialize() {
+        conversationStarted = true;
+        activeLineIndex = 0;
+        leftSpeakerUI.Speaker = conversation.leftSpeaker;
+        rightSpeakerUI.Speaker = conversation.rightSpeaker;
+    }
+
+    private void AdvanceLine() {
+        if (conversation == null) {
+            return;
+        }
+
+        if (!conversationStarted) {
+            Initialize();
+        }
+
+        if (activeLineIndex < conversation.lines.Length) {
+            DisplayLine();
+
+        } else {
             AdvanceConversation();
         }
     }
 
-    void AdvanceConversation() {
-        if (activeLineIndex < conversation.lines.Length) {
-            DisplayLine();
-            activeLineIndex += 1;
+    private void AdvanceConversation() {
+        if (conversation.reply != null) {
+            replyEvent.Invoke(conversation.reply);
+
+        } else if (conversation.nextConversation != null) {
+            ChangeConversation(conversation.nextConversation);
 
         } else {
-            leftSpeakerUI.Hide();
-            rightSpeakerUI.Hide();
-            activeLineIndex = 0;
+            EndConversation();
         }
     }
 
@@ -55,6 +101,8 @@ public class DisplayDialogue : MonoBehaviour
             SetEmotion(rightSpeakerUI);
 
         }
+
+        activeLineIndex += 1;
     }
 
     void SetEmotion(SpeakerUI emotion) {

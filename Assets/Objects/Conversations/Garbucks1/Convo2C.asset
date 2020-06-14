@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ffe78aeffddced4793804effd481fa6, type: 3}
+  m_Name: Convo2C
+  m_EditorClassIdentifier: 
+  leftSpeaker: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
+  rightSpeaker: {fileID: 11400000, guid: 3c38514b8c96d154bbe9a1888ea9c2b3, type: 2}
+  reply: {fileID: 0}
+  nextConversation: {fileID: 0}
+  lines:
+  - character: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
+    dialogue: Ma'am this isn't the way to act.
+  - character: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
+    dialogue: I've been very suicidal lately and this is kind of giving me urges
+      again.
+  - character: {fileID: 11400000, guid: 2bef225c90b55604fb7b791bdfe2d74e, type: 2}
+    dialogue: How about you get better at your job then?
+  - character: {fileID: 11400000, guid: 2f3433569ea6b224a9a49e7ad6144e6d, type: 2}
+    dialogue: You lazy little depressed motherfucker!
