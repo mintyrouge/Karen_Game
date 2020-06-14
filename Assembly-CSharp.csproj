@@ -62,7 +62,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\CameraResolution.cs" />
     <Compile Include="Assets\Script\Dialogue\Character.cs" />
     <Compile Include="Assets\Script\Dialogue\Conversation.cs" />
     <Compile Include="Assets\Script\Dialogue\DisplayDialogue.cs" />
