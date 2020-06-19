@@ -10,14 +10,12 @@ public class SwitchScene : MonoBehaviour
     // Start is called before the first frame update
     public void LoadScene()
     {
-        Debug.Log("Scene: " + sceneIdx);
         SceneManager.LoadScene(sceneBuildIndex: sceneIdx);
     }
 
     // Update is called once per frame
     public void QuitGame()
     {
-        Debug.Log("Quit Game bitch");
         Application.Quit();
     }
 }

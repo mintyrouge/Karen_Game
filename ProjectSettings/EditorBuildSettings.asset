@@ -15,9 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Overworld.unity
     guid: 737210a408469be43b64237c7bb7f2c9
   - enabled: 1
-    path: Assets/Scenes/GarbucksAltercation.unity
-    guid: 9ed149ed542a7b04ea6a6cb91cb2d158
-  - enabled: 1
     path: Assets/Scenes/PlayerSelect.unity
     guid: 4cc9b08b5a7734b41b094228ed066abb
+  - enabled: 1
+    path: Assets/Scenes/CharacterPersist.unity
+    guid: 868c1870553545d4682a6ac91139980e
   m_configObjects: {}
