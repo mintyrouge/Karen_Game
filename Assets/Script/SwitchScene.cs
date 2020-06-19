@@ -13,6 +13,11 @@ public class SwitchScene : MonoBehaviour
         SceneManager.LoadScene(sceneBuildIndex: sceneIdx);
     }
 
+    private void OnTriggerEnter2D()
+    {
+        LoadScene();
+    }
+
     // Update is called once per frame
     public void QuitGame()
     {
