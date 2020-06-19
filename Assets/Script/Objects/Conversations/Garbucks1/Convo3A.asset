@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ffe78aeffddced4793804effd481fa6, type: 3}
+  m_Name: Convo3A
+  m_EditorClassIdentifier: 
+  leftSpeaker: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
+  rightSpeaker: {fileID: 11400000, guid: 93581c595e0de65408578e56defd2291, type: 2}
+  reply: {fileID: 0}
+  nextConversation: {fileID: 0}
+  lines:
+  - character: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
+    dialogue: Ma'am... I just work here.
+  - character: {fileID: 11400000, guid: 24c2281f892d2724880c0a84baa57e90, type: 2}
+    dialogue: Well you're doing a terrible job.
+  - character: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
+    dialogue: I can give you a coupon for half off next time.
+  - character: {fileID: 11400000, guid: 35509d2af79cb6d46bd67c6776a74167, type: 2}
+    dialogue: I want  a full refund and a free coffee now!
+  - character: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
+    dialogue: I just can't do that miss. Let me make you a new cup.
+  - character: {fileID: 11400000, guid: a865e09a318e3ce49b39abb0a299782a, type: 2}
+    dialogue: 'SCREW YOUR CUP!!!!
+
+'
+  - character: {fileID: 11400000, guid: 42ece049bbcdad84f95d953c32641b5c, type: 2}
+    dialogue: 'I want to speak to your manager.
+
+'

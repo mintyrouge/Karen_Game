@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10721eafb36928f49b235e68a5a498cd, type: 3}
   m_Name: Route1
   m_EditorClassIdentifier: 
-  text: Kharla
+  text: Karen
   choices:
   - text: You should make me a free item of my choice for being so rude!
     conversation: {fileID: 11400000, guid: f666b3186dfb66647903a985e05e0ae9, type: 2}
