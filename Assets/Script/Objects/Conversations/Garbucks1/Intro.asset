@@ -34,10 +34,8 @@ MonoBehaviour:
   - character: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
     dialogue: Your total is $8.75.
   - character: {fileID: 11400000, guid: 88ada6d5a1d0d0941b759dc87573d183, type: 2}
-    dialogue: This is redicoulous. I'm not paying for this.
+    dialogue: This is ridiculous. I'm not paying for this.
   - character: {fileID: 11400000, guid: f3cbe3764a81ec84cb2e76684017e5a9, type: 2}
     dialogue: And don't think I didn't notice your tone.
   - character: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
     dialogue: Sorry?
-  - character: {fileID: 11400000, guid: f3cbe3764a81ec84cb2e76684017e5a9, type: 2}
-    dialogue: You know what I'm talking about!

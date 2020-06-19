@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: Karen
   choices:
-  - text: You didn' tfollow the recipe very well, did you?
+  - text: You didn't follow the recipe very well, did you?
     conversation: {fileID: 11400000, guid: f666b3186dfb66647903a985e05e0ae9, type: 2}
   - text: Ok I understand.
     conversation: {fileID: 11400000, guid: 913afc63db9444e45bd2c0f9d9c9f19f, type: 2}

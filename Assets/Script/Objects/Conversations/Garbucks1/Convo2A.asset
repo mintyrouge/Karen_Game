@@ -14,33 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftSpeaker: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
   rightSpeaker: {fileID: 11400000, guid: f3cbe3764a81ec84cb2e76684017e5a9, type: 2}
-<<<<<<< Updated upstream
-  reply: {fileID: 0}
-  nextConversation: {fileID: 0}
-  lines:
-  - character: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
-    dialogue: 'Okay ma''am. '
-  - character: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
-    dialogue: Let's settle down now.
-  - character: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
-    dialogue: What other item do you want on the menu?
-  - character: {fileID: 11400000, guid: 0ac67387d86741143932a69134f53202, type: 2}
-    dialogue: 'I want... '
-  - character: {fileID: 11400000, guid: ca2269cf8b3b49545a4e971b7bba2828, type: 2}
-    dialogue: a quad long shot grande in a venti cup half calf double cupped no sleeve
-      salted caramel
-  - character: {fileID: 11400000, guid: 640bf90ea6b4eda45b40573195ca14e4, type: 2}
-    dialogue: 'mocha latte with 2 pumps of vanilla, '
-  - character: {fileID: 11400000, guid: 0ac67387d86741143932a69134f53202, type: 2}
-    dialogue: 2 pumps of classic,
-  - character: {fileID: 11400000, guid: 640bf90ea6b4eda45b40573195ca14e4, type: 2}
-    dialogue: 2 pumps of hazelnut,
-  - character: {fileID: 11400000, guid: 3021cbd27b4728d46b6771cfaa288601, type: 2}
-    dialogue: and extra java chips.
-  - character: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
-    dialogue: Is that all?
-=======
-  reply: {fileID: 11400000, guid: a4fb729d62dbd8341825ac0e1ac48c46, type: 2}
+  reply: {fileID: 11400000, guid: f81eda39e464018408765cb22b0adc1c, type: 2}
   nextConversation: {fileID: 0}
   lines:
   - character: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
@@ -52,4 +26,3 @@ MonoBehaviour:
     dialogue: Alright but you need to understand, I have other customers.
   - character: {fileID: 11400000, guid: 24c2281f892d2724880c0a84baa57e90, type: 2}
     dialogue: You're dealing with me now.
->>>>>>> Stashed changes

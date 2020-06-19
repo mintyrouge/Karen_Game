@@ -16,7 +16,7 @@ MonoBehaviour:
   choices:
   - text: You call this customer service???
     conversation: {fileID: 11400000, guid: 090338eea94f00f4494d29de4f0f6adf, type: 2}
-  - text: YOU' WORTHLESS!!!
+  - text: YOU'RE WORTHLESS!!!
     conversation: {fileID: 11400000, guid: 090338eea94f00f4494d29de4f0f6adf, type: 2}
-  - text: I've never been so dissapointed in my life!!!!
+  - text: I've never been so disappointed in my life!!!!
     conversation: {fileID: 11400000, guid: 090338eea94f00f4494d29de4f0f6adf, type: 2}

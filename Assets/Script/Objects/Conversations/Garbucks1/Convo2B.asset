@@ -15,7 +15,8 @@ MonoBehaviour:
   leftSpeaker: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
   rightSpeaker: {fileID: 11400000, guid: 0ac67387d86741143932a69134f53202, type: 2}
   reply: {fileID: 0}
-  nextConversation: {fileID: 0}
+  failure: 1
+  winner: 0
   lines:
   - character: {fileID: 11400000, guid: 3021cbd27b4728d46b6771cfaa288601, type: 2}
     dialogue: Don't mind me.

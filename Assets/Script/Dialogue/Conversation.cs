@@ -14,7 +14,8 @@ public class Conversation : ScriptableObject {
     public Character leftSpeaker;
     public Character rightSpeaker;
     public Reply reply;
-    public Conversation nextConversation;
+    public bool failure;
+    public bool winner;
     public Line[] lines;
 
 }

@@ -14,6 +14,9 @@ public class DisplayDialogue : MonoBehaviour
     public GameObject leftSpeaker;
     public GameObject rightSpeaker;
 
+    public GameObject failPanel;
+    public GameObject winPanel;
+
     private SpeakerUI leftSpeakerUI;
     private SpeakerUI rightSpeakerUI;
 
@@ -46,6 +49,19 @@ public class DisplayDialogue : MonoBehaviour
     }
 
     private void EndConversation() {
+
+        if (conversation.failure == true) {
+            Debug.Log("You faile.d");
+            failPanel.SetActive(true);
+            winPanel.SetActive(false);
+        } 
+
+        if (conversation.winner == true) {
+            Debug.Log("u got tjias");
+            failPanel.SetActive(false);
+            winPanel.SetActive(true);
+        }
+
         conversation = null;
         conversationStarted = false;
         leftSpeakerUI.Hide();
@@ -79,9 +95,6 @@ public class DisplayDialogue : MonoBehaviour
     private void AdvanceConversation() {
         if (conversation.reply != null) {
             replyEvent.Invoke(conversation.reply);
-
-        } else if (conversation.nextConversation != null) {
-            ChangeConversation(conversation.nextConversation);
 
         } else {
             EndConversation();

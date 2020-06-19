@@ -15,7 +15,8 @@ MonoBehaviour:
   leftSpeaker: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
   rightSpeaker: {fileID: 11400000, guid: 93581c595e0de65408578e56defd2291, type: 2}
   reply: {fileID: 0}
-  nextConversation: {fileID: 0}
+  failure: 0
+  winner: 1
   lines:
   - character: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
     dialogue: Ma'am... I just work here.
@@ -35,3 +36,14 @@ MonoBehaviour:
     dialogue: 'I want to speak to your manager.
 
 '
+  - character: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
+    dialogue: Please dont!!!
+  - character: {fileID: 11400000, guid: af5ad8eb5b9c6924480dc2c342caf468, type: 2}
+    dialogue: You need to do more for customers when you don't treat them right!!!
+  - character: {fileID: 11400000, guid: cedda66a2c11c1c4dac466848616b485, type: 2}
+    dialogue: GIVE ME YOUR SOUL!!!
+  - character: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
+    dialogue: Okay, okay... here...
+  - character: {fileID: 11400000, guid: 43f80217c62e32c4f953fabcdbf6ec9d, type: 2}
+    dialogue: You get a lifetime supply of pumpkin spice lattes that get delivered
+      to your door at no charge.
