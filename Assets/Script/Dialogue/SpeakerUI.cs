@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class SpeakerUI : MonoBehaviour
 {
     public Image image;
-    new public Text name;
-    public Text dialogue;
+    new public TextMeshProUGUI name;
+    public TextMeshProUGUI dialogue;
 
     private Character speaker;
 
