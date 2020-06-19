@@ -13,9 +13,14 @@ public class SwitchScene : MonoBehaviour
         SceneManager.LoadScene(sceneBuildIndex: sceneIdx);
     }
 
+    public void OpenLink(string link)
+    {
+        Application.OpenURL(link);
+    }
+
     private void OnTriggerEnter2D()
     {
-        LoadScene();
+        SceneManager.LoadScene(5);
     }
 
     // Update is called once per frame
